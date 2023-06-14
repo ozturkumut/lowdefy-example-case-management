@@ -6,4 +6,4 @@ npx lowdefy@${LOWDEFY_VERSION//[[:space:]]/} build --config-directory ../  --ser
 # Read Lowdefy version from lowdefy.yaml using sed
 LOWDEFY_VERSION="3.23.3"
 # Substitution params are to trim whitespace from the LOWDEFY_VERSION var
-npx lowdefy@${LOWDEFY_VERSION//[[:space:]]/} build --base-directory ../  --server-directory . --no-next-build --log-level=debug
+npx lowdefy@${LOWDEFY_VERSION//[[:space:]]/} build
