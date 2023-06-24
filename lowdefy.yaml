@@ -7,7 +7,7 @@ connections:
     type: MongoDBCollection
     properties:
       databaseUri:
-        _secret: EXAMPLES_MDB
+        _secret: LOWDEFY_SECRET_EXAMPLES_MDB
       databaseName: example-case-management
       collection: tickets
       write: true
