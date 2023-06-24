@@ -7,7 +7,7 @@ connections:
     type: MongoDBCollection
     properties:
       databaseUri:
-        _secret: EXAMPLES_MDB
+        _secret: “mongodb+srv://example-case-management:BWoUO9Qk12jjD3CR@lowdefyexamplecasemanag.qnapxyp.mongodb.net/?retryWrites=true&w=majority”
       databaseName: example-case-management
       collection: tickets
       write: true

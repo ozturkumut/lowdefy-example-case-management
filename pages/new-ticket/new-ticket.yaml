@@ -1,7 +1,7 @@
 id: new-ticket
 type: PageHeaderMenu
 properties:
-  title: New Ticket
+  title: New ticket
   content:
     style:
       background: '#f5f5f5'
